@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add truffle-hdwalllet-provider
+
+PATH: 
+  /home/verma//flutter/bin:/home/verma/bin:/home/verma/.local/bin:/home/verma//flutter/bin:/home/verma/bin:/home/verma/.local/bin:/home/verma//flutter/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/verma/Android/Sdk/tools:/home/verma/Android/Sdk/tools/bin:/home/verma/Android/Sdk/platform-tools:/home/verma/Android/Sdk/emulator:/home/verma/Android/Sdk/tools:/home/verma/Android/Sdk/platform-tools:/home/verma/Android/Sdk/tools:/home/verma/Android/Sdk/tools/bin:/home/verma/Android/Sdk/platform-tools:/home/verma/Android/Sdk/emulator:/home/verma/Android/Sdk/tools:/home/verma/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/truffle-hdwalllet-provider: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:137468:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:138440:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "kickstart",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": " mocha --ui tdd test/Campaign.test.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "fs-extra": "^7.0.0",
+      "ganache-cli": "^6.1.8",
+      "mocha": "^5.2.0",
+      "solc": "^0.4.25",
+      "web3": "^1.0.0-beta.36"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
